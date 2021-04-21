@@ -1,0 +1,18 @@
+Napisati program koji racuna proizvod svih elemenata niza 16-bitnih celobrojnih brojeva.
+Omoguciti korisniku da unosi 16-bitne celobrojne vrednosti, sve dok ne unese nulu. Nula nije element niza.
+Ograniciti korisnika da maksmalno moze da unese 100 celobrojnih vrednosti.
+Niz celobrojnih vrednosti treba da bude lokalna promenjiva u funkciji "main".
+Racunanje proizvoda se vrsi funkcijom "proizvod", koja koristi instrukciju mulo.
+Ispis tezultata se vrsi u funkciji "main".
+Ukoliko se prilikom racunanja dogodi izuzetak, tada ispisati njegov kod i nastaviti izvrsenje programa.
+
+
+Bodovanje:
+1)    Unos niza celobrojnih vrednosti do pojave vrednosti "0" (maksimalno 100 elemenata)- 7 bodova
+2a)   Realizovan algoritam za proizvod bez funkcije i ispis rezultata - 6 bodova
+2b)   Realizovana funkcija "proizvod" i ispis rezultata - 10 bodova
+3)    Ispis koda izuzetka - 3 bodova
+	
+Napomena:
+	Rad se pregleda po stavkama, i ukoliko stavka X) nije korektno uradjena stavke >X) nece biti pregledane
+	Trajanje kolokvijuma je 1h i 45min.
