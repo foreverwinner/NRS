@@ -1,0 +1,48 @@
+/* 
+Napisati program koji ucitava dva stringa i od njih kreira rezultujuci string,
+tako sto u rezultujuci string stavlja naizmenicno znakove iz prvog i drugog stringa.
+Ukoliko su stringovi razlicite duzine, tada se umesto nedostajucih znakova u jednom
+stringu koriste znakovi iz drugog stringa. Ispisati rezultujuci string kao i njegovu
+duzinu.
+
+Primer:
+String 1: aaaaaaaaaa
+String 2: bbbbbb
+Rezultat: abababaaaa   (poslednja 4 znaka su uzeta samo iz prvog stringa)
+Duzina: 10
+
+Ogranicenja:
+1. Svi stringovi su dugacki najvise 100 karaktera
+2. Za unos stringova je dozvoljeno koristiti prekid za unos stringa
+3. Za ispis stringova je dozvoljeno koristiti prekid za ispis stringa
+4. Kreirati stringove kao lokalne promenljive u main-u
+5. Kreirati stack frame za main i potrebne funkcije
+
+Bodovanje:
+1) Unos stringova i ispis rezultata 3 boda
+2a) Kreiranje rezultujuceg stringa - 6 bodova
+2b) Kreiranje funkcije za racunanje rezultujuceg stringa 9 poena
+3a) Racunanje duzine stringa 4 poena
+3b) Kreiranje funkcije za racunanje duzine stringa 5 poena
+3c) Kreiranje sistemskog poziva za racunanje duzine 8 poena
+
+Dodatna pojasnjenja:
+
+Stavka 2b) 
+Funkcija za racunanje rezultujuceg stringa prima adrese sva tri stringa 
+preko parametara $a0, $a1 i $a2.
+
+Stavka 3b)
+Funkcija za racunanje duzine stringa prima adresu stringa preko parametra $a0
+i da vrati duzinu stringa preko registra $v0
+
+Stavka 3b)
+Sistemski poziv treba da ima redni broj 300, da primi adresu stringa preko registra $a0
+i da vrati duzinu stringa preko registra $v0
+	
+Napomena:
+
+Rad se pregleda po stavkama, i ukoliko stavka 1) nije korektno uradjena ostale stavke nece biti pregledane
+
+Trajanje kolokvijuma je 1h i 30min.
+*/

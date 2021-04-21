@@ -1,0 +1,31 @@
+Napisati program koji ucitava dva niza 32-bitnih brojeva jednake duzine i racuna njihov
+skalarni proizvod. Vrednost skalarnog proizvoda ispisati na ekran. Pri unosu brojeva,
+brojeve unositi naizmenicno sve dok se za prvi element prvog niza ne unese 0.
+
+Primer:
+unos brojeva: 2 4 3 6 5 1 0
+
+Niz 1: 2 3 5 0
+Niz 2: 4 6 1
+Rezultat: 31 (2*4+3*6+5*1)
+
+Ogranicenja:
+1. Svi nizovi su dugacki najvise 100 brojeva
+4. Kreirati nizove kao lokalne promenljive u main-u
+5. Kreirati stack frame za main i potrebne funkcije (sacuvati minimu $ra)
+
+Bodovanje:
+1)  Unos nizova - 7 bodova
+2a) Racunanje skalarnog proizvoda i ispis rezultata - 6 bodova
+2b) Kreiranje funkcije za racunanje skalarnog priizvoda - 10 poena
+3) Kreiranje sistemskog poziva za racunanje skalarnog proizvoda - 3 poena
+
+Sistemski poziv treba da ima redni broj 300, kao ulazne parametre adrese nizova 
+smestene u $a0 i $a1 i rezultat smesten u $v0
+	
+Napomena:
+
+Rad se pregleda po stavkama, i ukoliko stavka x) nije korektno uradjena stavke >x) stavke nece biti pregledane
+
+Trajanje kolokvijuma je 1h i 30min.
+
